@@ -17,7 +17,7 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/java
 ---
-"Hi this is a sample page"]]></ee:set-payload>
+"The jenkins job is succeded"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="4b69c1de-fcd7-43f0-95b4-6d63f8ee7a29" message="#[payload]"/>
