@@ -15,7 +15,7 @@ pipeline {
  	
     stage('Deploy CloudHub') { 
     	      environment {
-        ANYPOINT_CREDENTIALS = credentials('anypoint.cred')
+        ANYPOINT_CREDENTIALS = credentials('mulesoft.meetup')
       }
        steps {
         echo 'Deploying only because of code commit...'
